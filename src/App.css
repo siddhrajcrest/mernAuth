@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: #ffffff;
+background-image: url("https://media.istockphoto.com/photos/abstract-bright-gradient-motion-spring-or-summer-landscape-texture-picture-id1253193147?b=1&k=20&m=1253193147&s=170667a&w=0&h=9XtMIDuKB6wtylaKfFuVS_Rajs3y94jZBVN4rtErYJM=");
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form input{
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+}
+
+.remove-btn{
+  margin-right: 0.5rem;
+}
+.fade-enter{
+opacity: 0.01;
+}
+.fade-enter-active{
+opacity: 1;
+transition: opacity 1000ms ease-in;
+}
+.fade-exit{
+opacity: 1;
+}
+.fade-exit-active{
+opacity: 0.01;
+transition: opacity 1000ms ease-out;
+}
